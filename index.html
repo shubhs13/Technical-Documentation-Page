@@ -1,0 +1,109 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+<nav id="navbar">
+  <header>Bootstrap Documentation</header>
+  <a href="#Intoduction" class="nav_link">Introduction</a>
+  <a href="#Quick_start" class="nav_link">Quick start</a>
+  <a href="#Layout" class="nav_link">Layout</a>
+  <a href="#Important_globals" class="nav_link">Important globals</a>
+  <a href="#Community" class="nav_link">Community</a>
+</nav>
+<main id="main-doc">
+  
+  <section class="main-section" id="Intoduction">
+    <header>Introduction</header>
+    <p>Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. It is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites. It solves many problems which we had once, one of which is the cross-browser compatibility issue. Nowadays, the websites are perfect for all the browsers (IE, Firefox and Chrome) and for all sizes of screens (Desktop, Tablets, Phablets, and Phones). All thanks to Bootstrap developers -Mark Otto and Jacob Thornton of Twitter, though it was later declared to be an open-source project.</p>
+  </section>
+  
+  <section class="main-section" id="Quick_start">
+    <header>Quick start</header>
+    <p>Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? Head to the downloads page.</p>
+    <h4>Use CSS</h4>
+      <p>There are 3 ways to use CSS</p>
+      <ul>
+        <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+      </ul>
+
+      <h4>Inline CSS</h4>
+      <pre>
+        <code>&lt;button style="color: purple"&gt;Click Me&lt;/button&gt;</code>
+      </pre>
+
+      <h4>Internal CSS</h4>
+      <p>In your HTML file inside the head tag you should put the style tag:</p>
+      <pre>
+        <code>&lt;style&gt;
+          button {
+            color: purple;
+          }
+        &lt;/style&gt;</code>
+      </pre>
+
+      <p>And then you can have a button on your page:</p>
+      <pre>
+        <code>&lt;button&gt;Click Me&lt;/button&gt;</code>
+      </pre>
+
+
+      <h4>External CSS</h4>
+      <p>In another CSS file we can have:</p>
+      <pre>
+        <code>button {
+          color: purple;
+        }</code>
+      </pre>
+
+      <p>And then import it into the HTML using the link tag</p>
+      <pre>
+        <code>&lt;link rel="stylesheet" href="styles.css"/&gt;</code>
+      </pre>
+     
+  </section>
+  
+  <section class="main-section" id="Layout">
+    <header>Layout</header>
+    <p>Components and options for laying out your Bootstrap project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.</p>
+    <h4>Containers</h4>
+    <p>Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).</p>
+    <h4>Grid system</h4>
+    <p>Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes.</p>
+    <h4>Flexbox</h4>
+    <p>Bootstrap 4 is built with flexbox, but not every element’s display has been changed to display: flex as this would add many unnecessary overrides and unexpectedly change key browser behaviors. Most of our components are built with flexbox enabled.</p>
+  </section>  
+  
+  <section class="main-section" id="Important_globals">
+    <header>Important globals</header>
+    <p>Bootstrap employs a handful of important global styles and settings that you’ll need to be aware of when using it, all of which are almost exclusively geared towards the normalization of cross browser styles. Let’s dive in.</p>
+    <h4>HTML5 doctype</h4>
+      <p>Bootstrap requires the use of the HTML5 doctype. Without it, you’ll see some funky incomplete styling, but including it shouldn’t cause any considerable hiccups.</p>
+    <h4>Responsive meta tag</h4>
+      <p>Bootstrap is developed mobile first, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your head tag</p>
+    <h4>Box-sizing</h4>
+     <p>For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box. This ensures padding does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.</p>
+    <h4>Reboot</h4>
+      <p>For improved cross-browser rendering, we use Reboot to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
+
+</p>
+  </section>
+  
+  <section class="main-section" id="Community">
+    <header>Community</header>
+    <p>Stay up to date on the development of Bootstrap and reach out to the community with these helpful resources.<p>
+<ul>
+<li>Follow @getbootstrap on Twitter.</li>
+<li>Read and subscribe to The Official Bootstrap Blog.</li>
+<li>Join the official Slack room.</li>
+<li>Chat with fellow Bootstrappers in IRC. On the irc.freenode.net server, in the bootstrap channel.</li>
+<li>Implementation help may be found at Stack Overflow.</li>
+Developers should use the keyword bootstrap on packages which modify or add to the functionality of Bootstrap when distributing through npm or similar delivery mechanisms for maximum discoverability.</li>
+  </ul>
+    <p>
+You can also follow @getbootstrap on Twitter for the latest gossip and awesome music videos.</p>
+  </section>
+  
+  
+</main>
+
+</html>
